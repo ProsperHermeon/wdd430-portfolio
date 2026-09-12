@@ -30,3 +30,18 @@ const projects = [
     link: 'https://github.com/ProsperHermeon/ExpenseTracker',
   },
 ];
+
+export default function Home() {
+  return (
+    <main className="max-w-4xl mx-auto px-4 py-12">
+      <section className="text-center py-8">
+        <h1 className="text-4xl font-bold mb-4 text-gray-900">My Portfolio</h1>
+        <p className="text-lg text-gray-700">
+          I&apos;m a full-stack developer building with Next.js, React, and
+          TypeScript. Here are some of the projects I&apos;ve recently built.
+        </p>
+      </section>
+      <ProjectList projects={projects} />
+    </main>
+  );
+}

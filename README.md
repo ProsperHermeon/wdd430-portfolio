@@ -4,7 +4,7 @@ A personal portfolio site built with Next.js (App Router), TypeScript, and Tailw
 
 ## Live Site
 
-Deployed on Vercel: **[REPLACE_WITH_YOUR_VERCEL_URL]**
+Deployed on Vercel: **https://wdd430-portfolio-one-sable.vercel.app**
 
 ## Author
 
